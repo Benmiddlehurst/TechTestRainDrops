@@ -6,7 +6,7 @@ public class App
     {
         NumberFactors numberFactors = new NumberFactors();
         Raindropper raindropper = new Raindropper();
-        String raindrop = raindropper.rainDropper(numberFactors.numberFactors(105));
+        String raindrop = raindropper.rainDropper(numberFactors.numberFactors(13));
         System.out.println(raindrop);
     }
 }
